@@ -1,3 +1,3 @@
-def add(a,b){
-  echo "${a}   ${b}   ${a+b}"
+def git(repo){
+  git 'https://github.com/intelliqittrainings/${repo}'
 }
