@@ -1,3 +1,3 @@
-def cal(name){
-  echo 'Hello ${name} ,how r u'
+def add(a,b){
+  echo '${a}   ${b}   ${a+b}'
 }
