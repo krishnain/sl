@@ -5,6 +5,6 @@ def newGit(repo){
 
 def newMaven(build)
 {
-  sh label: '', script: 'mvn ${build}'
+  sh label: '', script: 'mvn "${build}"'
 }
 
