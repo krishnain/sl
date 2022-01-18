@@ -11,6 +11,6 @@ def newMaven()
 
 def newDeploy(ip)
 {
-  sh 'scp /home/ubuntu/.jenkins/workspace/Sample/webapp/target/webapp.war ubuntu@'+ip+':/var/lib/tomcat9/webapps/qaapp.war' 
+  sh 'scp /home/ubuntu/.jenkins/workspace/Sample/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/qaapp.war' 
 }
 
