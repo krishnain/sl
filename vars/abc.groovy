@@ -3,9 +3,9 @@ def newGit(repo){
   git "${repo}"
 }
 
-def newMaven(build)
+def newMaven()
 {
-  echo "${build}"
-  sh label: '', script: 'mvn "${build}"'
+  
+  sh label: '', script: 'mvn package'
 }
 
